@@ -1,0 +1,81 @@
+#,RDS_INSTANCE_ID,DB_ENGINE,INSTANCE_TYPE,AZ_TYPE,PRIMARY_AZ,SECONDARY_AZ,STATUS,STORAGE,IOPS,ENDPOINT,DB_SECURITY_GROUPS,VPC_SECURITY_GROUPS,instanceCreateTime
+1,aa1,aurora 5.6.10a,db.t2.small,Single-AZ,cn-northwest-1a,,available,1 GB,Standard IOPS,aa1.cmursd9rstzh.rds.cn-northwest-1.amazonaws.com.cn:3306,,,1.53362E+12
+2,aa1-cn-northwest-1b,aurora 5.6.10a,db.t2.small,Single-AZ,cn-northwest-1b,,available,1 GB,Standard IOPS,aa1-cn-northwest-1b.cmursd9rstzh.rds.cn-northwest-1.amazonaws.com.cn:3306,,,1.53362E+12
+3,nxtestdb01,mysql 5.6.40,db.t2.medium,Single-AZ,cn-northwest-1a,,available,100 GB,Standard IOPS,nxtestdb01.cmursd9rstzh.rds.cn-northwest-1.amazonaws.com.cn:3306,,,1.52317E+12
+4,accountdb01,mysql 5.6.34,db.m3.large,Multi-AZ,cn-north-1b,cn-north-1a,available,200 GB,Standard IOPS,accountdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.44785E+12
+5,accountdb02,mysql 5.6.41,db.t2.small,Single-AZ,cn-north-1a,,available | read replication - replicating,200 GB,Standard IOPS,accountdb02.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.48186E+12
+6,activitidb01,mysql 5.6.40,db.t2.small,Single-AZ,cn-north-1a,,available,300 GB,Standard IOPS,activitidb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.47938E+12
+7,aggrdb01,mysql 5.6.40,db.t2.large,Multi-AZ,cn-north-1a,cn-north-1b,available,1500 GB,Standard IOPS,aggrdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.47826E+12
+8,antifraudconfdb01,mysql 5.6.40,db.t2.small,Multi-AZ,cn-north-1a,cn-north-1b,available,100 GB,Standard IOPS,antifraudconfdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.49647E+12
+9,antifrauddb01,mysql 5.6.41,db.t2.small,Multi-AZ,cn-north-1a,cn-north-1b,available,200 GB,Standard IOPS,antifrauddb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.47417E+12
+10,apiserverdb01,mysql 5.6.34,db.m3.large,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,apiserverdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.44785E+12
+11,applydb01,mysql 5.6.41,db.t2.small,Multi-AZ,cn-north-1a,cn-north-1b,available,200 GB,Standard IOPS,applydb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.47417E+12
+12,bsfingerdb01,mysql 5.7.21,db.t2.medium,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,bsfingerdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.52825E+12
+13,carddb01,mysql 5.6.40,db.t2.small,Single-AZ,cn-north-1b,,available,100 GB,Standard IOPS,carddb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.49561E+12
+14,cashierdb01,mysql 5.6.41,db.t2.small,Multi-AZ,cn-north-1a,cn-north-1b,available,100 GB,Standard IOPS,cashierdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.46424E+12
+15,cifdb01,mysql 5.6.34,db.r3.2xlarge,Multi-AZ,cn-north-1a,cn-north-1b,available,500 GB,Standard IOPS,cifdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.44785E+12
+16,cifdb02,mysql 5.6.34,db.r3.2xlarge,Single-AZ,cn-north-1b,,available | read replication - replicating,500 GB,Standard IOPS,cifdb02.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.51684E+12
+17,cifdb03,mysql 5.6.34,db.m3.xlarge,Single-AZ,cn-north-1b,,available | read replication - replicating,500 GB,Standard IOPS,cifdb03.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.45706E+12
+18,cifdb04,mysql 5.6.34,db.m3.large,Single-AZ,cn-north-1a,,available | read replication - replicating,500 GB,Standard IOPS,cifdb04.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.49585E+12
+19,cifdb05,mysql 5.6.34,db.r3.2xlarge,Single-AZ,cn-north-1b,,available | read replication - replicating,500 GB,Standard IOPS,cifdb05.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.52568E+12
+20,clouderamgrdb01,mysql 5.6.41,db.t2.medium,Multi-AZ,cn-north-1a,cn-north-1b,available,100 GB,Standard IOPS,clouderamgrdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.54097E+12
+21,crawlerdb01,mysql 5.6.40,db.m3.medium,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,crawlerdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.47028E+12
+22,creditapplydb01,mysql 5.6.39,db.m3.medium,Multi-AZ,cn-north-1a,cn-north-1b,available,100 GB,Standard IOPS,creditapplydb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.52248E+12
+23,creditdb01,mysql 5.6.34,db.m3.large,Multi-AZ,cn-north-1a,cn-north-1b,available,1024 GB,Standard IOPS,creditdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.44785E+12
+24,creditdb02,mysql 5.6.34,db.m3.medium,Single-AZ,cn-north-1b,,available | read replication - replicating,1024 GB,Standard IOPS,creditdb02.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.47187E+12
+25,creditdb03,mysql 5.6.34,db.m3.large,Single-AZ,cn-north-1b,,available | read replication - replicating,1024 GB,Standard IOPS,creditdb03.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.50167E+12
+26,ctcf-account-prod,oracle-ee 11.2.0.4.v14,db.t2.medium,Multi-AZ,cn-north-1a,cn-north-1b,available,250 GB,Standard IOPS,ctcf-account-prod.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:1521,,,1.52229E+12
+27,ctcf-account-test,oracle-ee 11.2.0.4.v14,db.t2.small,Single-AZ,cn-north-1b,,available,250 GB,Standard IOPS,ctcf-account-test.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:1521,,,1.52456E+12
+28,dashboard01,mysql 5.6.40,db.t2.small,Multi-AZ,cn-north-1a,cn-north-1b,available,100 GB,Standard IOPS,dashboard01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.4677E+12
+29,datasubmissiondb01,mysql 5.6.41,db.t2.small,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,datasubmissiondb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.50944E+12
+30,decisiondb01,mysql 5.6.40,db.m3.medium,Multi-AZ,cn-north-1a,cn-north-1b,available,200 GB,Standard IOPS,decisiondb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.47366E+12
+31,depositorydb01,mysql 5.6.41,db.t2.small,Multi-AZ,cn-north-1a,cn-north-1b,available,100 GB,Standard IOPS,depositorydb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.54104E+12
+32,devtools,mysql 5.6.34,db.t2.medium,Multi-AZ,cn-north-1a,cn-north-1b,available,100 GB,Standard IOPS,devtools.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.44365E+12
+33,fingerprintdb01,mysql 5.6.40,db.t2.small,Multi-AZ,cn-north-1b,cn-north-1a,available,200 GB,Standard IOPS,fingerprintdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.47417E+12
+34,furiondb01,mysql 5.6.34,db.t2.small,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,furiondb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.44862E+12
+35,gitlabdb01,postgres 9.6.6,db.m3.medium,Single-AZ,cn-north-1a,,available,100 GB,Standard IOPS,gitlabdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:5432,,,1.52135E+12
+36,imagedb01,mysql 5.6.41,db.m3.medium,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,imagedb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.47417E+12
+37,kgraph-middb01,mysql 5.6.41,db.t2.small,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,kgraph-middb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.54105E+12
+38,kgraphdb01,mysql 5.7.23,db.t2.small,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,kgraphdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.53993E+12
+39,lcactivitidb01,mysql 5.6.39,db.m3.medium,Multi-AZ,cn-north-1a,cn-north-1b,available,100 GB,Standard IOPS,lcactivitidb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.53231E+12
+40,lcaggrdb01,mysql 5.6.39,db.m3.medium,Multi-AZ,cn-north-1a,cn-north-1b,available,100 GB,Standard IOPS,lcaggrdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.53197E+12
+41,lccifdb01,mysql 5.6.39,db.m3.medium,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,lccifdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.53197E+12
+42,lcdb01,mysql 5.6.39,db.m4.large,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,lcdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.53197E+12
+43,lcprivilegedb01,mysql 5.7.23,db.t2.small,Multi-AZ,cn-north-1a,cn-north-1b,available,100 GB,Standard IOPS,lcprivilegedb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.53993E+12
+44,lcunderwriterdb01,mysql 5.6.39,db.m3.medium,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,lcunderwriterdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.53197E+12
+45,maincifdb01,mysql 5.6.41,db.m3.medium,Multi-AZ,cn-north-1a,cn-north-1b,available,150 GB,Standard IOPS,maincifdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.5421E+12
+46,malldb01,mysql 5.6.40,db.m3.large,Multi-AZ,cn-north-1b,cn-north-1a,available,300 GB,Standard IOPS,malldb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.45706E+12
+47,malldb02,mysql 5.6.40,db.t2.small,Single-AZ,cn-north-1a,,available | read replication - replicating,300 GB,Standard IOPS,malldb02.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.49736E+12
+48,oidcdb01,mysql 5.6.34,db.m3.xlarge,Multi-AZ,cn-north-1b,cn-north-1a,available,500 GB,Standard IOPS,oidcdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.44785E+12
+49,oidcdb02,mysql 5.6.34,db.t2.medium,Single-AZ,cn-north-1b,,available | read replication - replicating,500 GB,Standard IOPS,oidcdb02.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.45381E+12
+50,oidcdb03,mysql 5.6.34,db.m3.large,Single-AZ,cn-north-1b,,available | read replication - replicating,500 GB,Standard IOPS,oidcdb03.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.49784E+12
+51,orderdb01,mysql 5.6.34,db.m3.xlarge,Multi-AZ,cn-north-1b,cn-north-1a,available,300 GB,Standard IOPS,orderdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.44785E+12
+52,orderdb02,mysql 5.6.34,db.t2.large,Single-AZ,cn-north-1a,,available | read replication - replicating,300 GB,Standard IOPS,orderdb02.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.50204E+12
+53,orderdb03,mysql 5.6.34,db.t2.medium,Single-AZ,cn-north-1b,,available | read replication - replicating,300 GB,Standard IOPS,orderdb03.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.48767E+12
+54,paymentdb01,mysql 5.6.41,db.t2.small,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,paymentdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.47617E+12
+55,pbankdb01,mysql 5.6.40,db.m3.medium,Multi-AZ,cn-north-1a,cn-north-1b,available,300 GB,Standard IOPS,pbankdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.457E+12
+56,phabricator,mysql 5.6.40,db.t2.small,Single-AZ,cn-north-1a,,available,100 GB,Standard IOPS,phabricator.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.47591E+12
+57,productdb01,mysql 5.6.34,db.r3.large,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,productdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.44785E+12
+58,productdb02,mysql 5.6.34,db.m3.medium,Single-AZ,cn-north-1b,,available | read replication - replicating,100 GB,Standard IOPS,productdb02.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.51505E+12
+59,protocoldb01,mysql 5.6.40,db.t2.small,Multi-AZ,cn-north-1a,cn-north-1b,available,100 GB,Standard IOPS,protocoldb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.47885E+12
+60,riskdb01,mysql 5.6.34,db.t2.large,Single-AZ,cn-north-1a,,available,2253 GB,Standard IOPS,riskdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.44799E+12
+61,riskdb02,mysql 5.6.34,db.t2.medium,Single-AZ,cn-north-1a,,available | read replication - replicating,2253 GB,Standard IOPS,riskdb02.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.5421E+12
+62,shuanaerdb01,mysql 5.6.35,db.m4.large,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,shuanaerdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.50777E+12
+63,smartkefudb01,mysql 5.6.37,db.t2.small,Single-AZ,cn-north-1b,,available,100 GB,Standard IOPS,smartkefudb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.51203E+12
+64,smsdb01,mysql 5.6.34,db.m3.medium,Multi-AZ,cn-north-1a,cn-north-1b,available,200 GB,Standard IOPS,smsdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.44785E+12
+65,snractdb01,mysql 5.6.40,db.m4.large,Multi-AZ,cn-north-1a,cn-north-1b,available,100 GB,Standard IOPS,snractdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.53596E+12
+66,snrcarddb01,mysql 5.6.41,db.t2.small,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,snrcarddb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.54026E+12
+67,snrcifdb01,mysql 5.6.41,db.m4.large,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,snrcifdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.54026E+12
+68,staff01,mysql 5.6.34,db.m3.medium,Multi-AZ,cn-north-1b,cn-north-1a,available,500 GB,Standard IOPS,staff01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.45127E+12
+69,strategydb01,mysql 5.7.22,db.t2.small,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,strategydb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.53692E+12
+70,teluwdb01,mysql 5.6.40,db.t2.small,Multi-AZ,cn-north-1b,cn-north-1a,available,100 GB,Standard IOPS,teluwdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.46008E+12
+71,testdb01,mysql 5.6.40,db.t2.small,Single-AZ,cn-north-1a,,available,150 GB,Standard IOPS,testdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.49447E+12
+72,tower3db01,postgres 9.5.10,db.t2.small,Single-AZ,cn-north-1a,,available,100 GB,Standard IOPS,tower3db01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:5432,,,1.47368E+12
+73,underwriterdb01,mysql 5.6.34,db.m3.large,Multi-AZ,cn-north-1b,cn-north-1a,available,1500 GB,Standard IOPS,underwriterdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.5041E+12
+74,underwriterdb02,mysql 5.6.34,db.m3.large,Single-AZ,cn-north-1b,,available | read replication - replicating,1500 GB,Standard IOPS,underwriterdb02.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.50429E+12
+75,uwofflinedb01,mysql 5.6.35,db.t2.small,Multi-AZ,cn-north-1a,cn-north-1b,available,100 GB,Standard IOPS,uwofflinedb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.49908E+12
+76,weixindb01,mysql 5.6.34,db.m3.medium,Multi-AZ,cn-north-1a,cn-north-1b,available,100 GB,Standard IOPS,weixindb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.45345E+12
+77,xhdevdb01,mysql 5.6.34,db.m3.medium,Single-AZ,cn-north-1b,,available,100 GB,Standard IOPS,xhdevdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.44368E+12
+78,xhtestdb01,mysql 5.6.34,db.t2.medium,Single-AZ,cn-north-1b,,available,200 GB,Standard IOPS,xhtestdb01.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.48714E+12
+79,xhtestdb02,mysql 5.6.34,db.t2.small,Single-AZ,cn-north-1b,,available | read replication - replicating,100 GB,Standard IOPS,xhtestdb02.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.51161E+12
+80,xhtools,mysql 5.7.23,db.t2.small,Single-AZ,cn-north-1b,,available,100 GB,Standard IOPS,xhtools.cq5skzcvpodr.rds.cn-north-1.amazonaws.com.cn:3306,,,1.50822E+12
